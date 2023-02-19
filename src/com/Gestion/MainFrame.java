@@ -95,6 +95,7 @@ public class MainFrame extends JFrame {
 		
 		
 		btnNewButton.addActionListener(new ActionListener() {
+			
 			public void actionPerformed(ActionEvent e) {
 				Connection connexion = BDconnect.obtenirConnexion();
 				String password = new String (passwordField.getPassword());
@@ -134,12 +135,7 @@ public class MainFrame extends JFrame {
 			}catch (Exception t) {
 				t.printStackTrace();
 				}
-				
-				 
-			
-				
-		
-				
+	
 				
 				};
 			});

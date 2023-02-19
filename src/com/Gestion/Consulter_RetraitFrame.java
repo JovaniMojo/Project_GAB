@@ -55,7 +55,7 @@ public class Consulter_RetraitFrame extends JFrame {
         pool = action.getName();
 
 		
-		JLabel lblNewLabel = new JLabel(" Mr " +  pool +" vous avez "+ cost +" FCFA sur votre compte");
+		JLabel lblNewLabel = new JLabel(" Mr " +pool+ " vous avez "+cost+" FCFA sur votre compte");
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		lblNewLabel.setBounds(58, 46, 353, 34);
 		contentPane.add(lblNewLabel);
