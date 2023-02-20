@@ -1,0 +1,8 @@
+diff --git a/bin/.gitignore b/bin/.gitignore
+new file mode 100644
+index 0000000..6b381a2
+--- /dev/null
++++ b/bin/.gitignore
+@@ -0,0 +1,2 @@
++/com/
++/module-info.class
